@@ -21,7 +21,9 @@ void Histogram(char text[]) {
 
 int main() {
     
-    char text[] = "hello, world!";
+    char text[100];
+
+    fgets(text , 100 , stdin);
     printf("----------------------------------------------------------------\n");
     Histogram(text);
     printf("----------------------------------------------------------------");
